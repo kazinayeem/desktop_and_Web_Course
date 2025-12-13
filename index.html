@@ -2,47 +2,39 @@
 <html lang="en">
   <head>
     <title>JS Practice</title>
-    <style>
-      body { font-family: sans-serif; padding: 20px; background: #f7f7f7; transition: background-color 0.3s, color 0.3s; }
-      .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: background-color 0.3s, color 0.3s; }
-      .dark-mode { background-color: #121212; color: #e0e0e0; }
-      .dark-mode .container { background: #1e1e1e; color: #e0e0e0; box-shadow: 0 2px 8px rgba(0,0,0,0.4); }
-      #todo-list { list-style-type: none; padding: 0; }
-      #todo-list li { padding: 8px; border-bottom: 1px solid #ddd; }
-      .dark-mode #todo-list li { border-bottom-color: #444; }
-      button { padding: 8px 12px; border: none; background: #1976d2; color: #fff; border-radius: 4px; cursor: pointer; }
-      button:hover { background: #145ea8; }
-      .dark-mode button { background: #2e7ad3; }
-      input[type="text"] { padding: 8px; border: 1px solid #ccc; border-radius: 4px; width: 60%; background: #fff; color: #000; transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
-      .dark-mode input[type="text"] { background: #2a2a2a; color: #e0e0e0; border-color: #555; }
-      img { max-width: 100%; display: block; margin-top: 10px; border-radius: 8px; }
-      a { color: inherit; }
-    </style>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="container">
-    <h1 id="welcome-message">Hello, Mohammad Ali Nayeem!</h1>
-    <button id="change-text-btn">Change Greeting</button>
-    <hr />
-    <p>University: Daffodil International University — Department of Software Engineering</p>
-    <p>Click the button to toggle dark mode.</p>
-    <button id="toggle-mode-btn">Toggle Light/Dark Mode</button>
-    <hr />
-    <h2>My To-Do List</h2>
-    <ul id="todo-list">
-      <li>Learn JavaScript</li>
-    </ul>
-    <input type="text" id="new-item-input" placeholder="Add a new item" />
-    <button id="add-item-btn">Add Item</button>
-    <p>Character count: <span id="char-count">0</span></p>
-    <hr />
-    <img id="gallery-img" src="" alt="Gallery" />
-    <button id="next-img-btn">Next</button>
-    <hr />
-    <a href="https://kazinayeem.site" target="_blank" style="text-decoration:none;">
-      <button>kazinayeem — Kazinayeem.site</button>
-    </a>
-    <script src="your-script-file.js"></script>
+      <h1 id="welcome-message">Hello, Mohammad Ali Nayeem!</h1>
+      <button id="change-text-btn">Change Greeting</button>
+      <hr />
+      <p>
+        University: Daffodil International University — Department of Software
+        Engineering
+      </p>
+      <p>Click the button to toggle dark mode.</p>
+      <button id="toggle-mode-btn">Toggle Light/Dark Mode</button>
+      <hr />
+      <h2>My To-Do List</h2>
+      <ul id="todo-list">
+        <li>Learn JavaScript</li>
+      </ul>
+      <input type="text" id="new-item-input" placeholder="Add a new item" />
+      <button id="add-item-btn">Add Item</button>
+      <p>Character count: <span id="char-count">0</span></p>
+      <hr />
+      <img id="gallery-img" src="" alt="Gallery" />
+      <button id="next-img-btn">Next</button>
+      <hr />
+      <a
+        href="https://kazinayeem.site"
+        target="_blank"
+        style="text-decoration: none"
+      >
+        <button>kazinayeem — Kazinayeem.site</button>
+      </a>
+      <script src="js/app.js"></script>
     </div>
   </body>
 </html>
